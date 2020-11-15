@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/garrettpark/garrettspage.nodegame#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
     "socket.io": "^3.0.1"
   }
 }
