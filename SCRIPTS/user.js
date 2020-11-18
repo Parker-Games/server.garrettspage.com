@@ -28,8 +28,8 @@ exports.socketHandler = function (io) {
 						}
 						if(user == dataUser && pass == dataPass){
 							socket.emit("acc_authed", {user: user});
-							req.session.userID = rows[0].id;
-							req.session.save();
+							//req.session.userID = rows[0].id;
+							//req.session.save();
 						}else{
 							socket.emit("acc_invalid");
 						}
